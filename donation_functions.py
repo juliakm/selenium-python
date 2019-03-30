@@ -89,12 +89,8 @@ def donate(url, recurs = False, ocd = False, type = 'credit', first_name = None,
     #element = driver.find_element_by_tag_name('h1')
     #assert element.text == 'Thank you for your donation!'
 
-current_form = 'https://ocd-fixes.qa.jacksonriverdev.com/node/3'
+current_form = 'https://qa.jacksonriverdev.com/node/3'
 
-# donate(current_form,recurs=False, ocd=False, mail="julia.kulla-mader+testingOCD5@jacksonriver.com", first_name='Armadillo', last_name='Authorize', credit_card='4012888818888', address="930 Ferncrest Drive")
-# donate(current_form,recurs=False, ocd=True, mail="julia.kulla-mader+testingOCD5@jacksonriver.com", first_name='Armadillo', last_name='Authorize', credit_card='4012888818888', address="930 Ferncrest Drive")
-
-donate(current_form,recurs=True, ocd=True, mail="julia.kulla-mader+testingOCD7@jacksonriver.com", first_name='Antwan', last_name='Authorize', credit_card='2223000010309711', address="1300 Carolina Ave")
-#donate(current_form,recurs=True, ocd=False, mail="julia.kulla-mader+testingOCD6@jacksonriver.com", first_name='Ant', last_name='Authorize', credit_card='4007000000027', address="1300 Carolina Ave")
+donate(current_form,recurs=True, ocd=True, mail="testing@jacksonriver.com", first_name='Antwan', last_name='Authorize', credit_card='2223000010309711', address="1300 Carolina Ave")
 
 #donate(current_form,recurs=True, ocd=False)
